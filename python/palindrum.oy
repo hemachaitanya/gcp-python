@@ -1,0 +1,8 @@
+numbers = []
+numbers.append(1)
+print(numbers)
+numbers.append(2)
+print(numbers)
+
+
+# apend means to insert value

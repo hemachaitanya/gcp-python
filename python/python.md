@@ -152,6 +152,212 @@ print(result)
 
 #### above functions are used to debugging or tracing
 
+### sequence datatypes
+
+    * sequence :
+
+        string :
+
+
+        list : this method returns a list of numbers
+
+```python
+value = []
+type(value)
+
+ex: 
+
+signals = ["red", "green", "blue"]
+numbers = ["1", "2", "3", "4", "5"]
+dummy_list = ["red", "1", "true"]
+
+
+
+```
+
+# pass
+ it returns a empty function
+
+### slicing
+
+* slicing basically workout start:end:
+
+ex:
+
+numbers[::2]
+numbers[1::2] # output 2,4,6,8.....
+
+## append : insert value
+
+## tuple: 
+
+tuples also work like lists 
+
+names = ("a", "b", "c)
+names[0]
+names[1::-1] ## print in a reverse order
+
+tuples cannot be changed once initialized
+
+if you know the size is fixed for variables, you can use tuple , in acse variable you want to change the size add or decreasing we go for the list .
+
+
+
+
+### filter function
+
+sum(list(filter(is_even,get_fibbonaci_sequence(max))))
+result = list(filter(is_prime , range(1,10000)))
+print(result)
+
+## dictionary
+
+it is basically key value pairs
+
+```distionari of ipl teams
+
+<variable_name> = {
+    'key1': 'value1',
+    .............
+    ........
+}
+
+
+
+ipl_teams = {
+    'hyd': 'sun rises',
+    'mumbai': 'mumbai indians'
+}
+
+```
+# access values 
+
+```
+ipl_teams['key1'] = 'value1'
+
+ipl_teams['chenai'] = 'value2'
+
+print(ipl_teams)
+```
+
+## loop trough dictionary
+
+for city , name in ipl_teams.items():
+    print (city, end=" ==>")
+    print(name)
+
+city ==> team name
+------------------------
+Hyderabad ==> team name
+mumbai ==> team name
+
+# loop through
+
+for city in ipl_teams.keys():
+    print(team_name)
+
+for city in ipl_teams.values():
+    print(team_name)
+
+# copy dictionary
+
+my_ipl_teams['delhi'] = 'delhi-capitals'
+  
+
+
+
+ 
+my_ipl_teams = ipl_teams.copy()
+
+## set
+
+* this is unique item 
+
+courses = {'aws','azure','gcp','python'}
+
+## calculator with 
+
+* create  folder in github (readme.md)
+
+* python -m venv .venv # command line
+
+* source .venv/bin/activatea # for linux
+
+* .venv/Scripts/activate # for windows
+
+* selete python interpreter from .venv 
+
+```
+windows 
+
+ctrl +shift + p   ==> command palette
+
+mac 
+
+<!-- cmd + shift + p ==>command palette -->
+
+### usage:
+
+* python calc.py <action> <num1> <number2>
+
+* python calc.py div 10 5
+
+## [link](https://www.perplexity.ai/search/how-to-add-VY3cte4WS5m1Ol012l6EJg)
+
+
+* pipi install pylint 
+
+>>>>>>>>pylint calc.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
